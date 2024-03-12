@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+
+.identifier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-weight: 1000;
+}
