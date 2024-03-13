@@ -22,18 +22,13 @@ body {
   align-items: center;
   justify-content: center;
   background-color: aquamarine;
-}
+  transition: 1s;
 
-.identifier {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  font-weight: 1000;
 }
 
 .selected {
   background-color: rgb(255, 119, 119);
   color: aquamarine;
   transform: scale(0.9) rotate(360deg);
+  transition: 1s;
 }
