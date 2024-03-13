@@ -68,3 +68,23 @@ span {
   bottom: 20%;
   color: transparent;
 }
+
+.textAppear {
+  animation-name: textAppear;
+  color: white;
+  animation-duration: 2s;
+}
+
+@keyframes textAppear {
+  from {
+    color: transparent;
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  to {
+    color: white;
+  }
+}

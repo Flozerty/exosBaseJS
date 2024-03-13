@@ -16,15 +16,11 @@ socials.forEach(social => {
     if (selected) {
       main.style.backgroundColor = "rgb(167, 167, 167)";
       selected = false;
-      span.style.color = "transparent"
-
+      span.classList.remove('textAppear')
     } else {
       main.style.backgroundColor = getComputedStyle(social).backgroundColor
       selected = true;
-
-      setTimeout(() => {
-        span.style.color = "white"
-      }, 1000);
+      span.classList.add('textAppear')
     }
   })
 })
