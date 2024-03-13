@@ -1,0 +1,70 @@
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(167, 167, 167);
+  color: white;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+#container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 20px;
+  transition: 1s;
+  position: relative;
+}
+
+i {
+  font-size: 1.5rem;
+  transition: 1s;
+  position: absolute;
+
+}
+
+#facebook {
+  background-color: rgb(67, 89, 161);
+}
+
+#twitter {
+  background-color: rgb(71, 212, 255);
+}
+
+#instagram {
+  background-color: rgb(224, 66, 119);
+}
+
+.selected {
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 0 2px 10px black;
+  transform: scale(1.1);
+}
+
+.selected i {
+  transform: translateY(-50%) rotate(360deg);
+  transition: 1s;
+}
+
+span {
+  font-size: 0.7em;
+  transition: 1s;
+  position: absolute;
+  bottom: 20%;
+  color: transparent;
+}
